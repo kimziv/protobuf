@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/google/protobuf'
   s.license  = 'New BSD'
   s.authors  = { 'The Protocol Buffers contributors' => 'protobuf@googlegroups.com' }
-  s.cocoapods_version = '>= 0.39.0'
+  s.cocoapods_version = '>=0.39'
 
   s.source = { :git => 'https://github.com/google/protobuf.git',
                :tag => "v#{s.version}" }
